@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
 import Header from "../SharedComponents/Header"
 
 function MyApp({ Component, pageProps }) {
