@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff0000 } 
+		.shp1 { fill: #00ff00 } 
+	</style>
+	<path id="Shape 1" class="shp0" d="M267 726C176.86 726 104 653.14 104 563C104 472.86 176.86 400 267 400C357.14 400 430 472.86 430 563C430 653.14 357.14 726 267 726Z" />
+	<path id="Shape 1 copy" class="shp0" d="M520 684C441.47 684 378 620.53 378 542C378 463.47 441.47 400 520 400C598.53 400 662 463.47 662 542C662 620.53 598.53 684 520 684Z" />
+	<path id="Shape 2" class="shp1" d="M347.94 153.07L358.67 147.69L502.87 435.6L492.14 440.98L347.94 153.07ZM354.2 144L365.69 147.44L273.4 455.93L261.91 452.49L354.2 144ZM224 143L508 143L508 171L224 171L224 143Z" />
+</svg>
