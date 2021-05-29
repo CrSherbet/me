@@ -1,5 +1,4 @@
-body,html{padding:0;margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif}a{text-decoration:none}*{box-sizing:border-box}
-
+body,html{padding:0;margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;background-image:url(/me/_next/static/media/bg.22282b3e7ad42e7e750a102ec0c3eb61.png);background-size:cover}a{text-decoration:none}*{box-sizing:border-box}header{justify-content:flex-end;height:3rem}#typing{color:#4b4a4a;width:0;float:left;font-family:sans-serif;font-weight:700;font-size:60px;overflow:hidden;white-space:nowrap;-webkit-animation:typing 5s steps(22) 1s infinite alternate;animation:typing 5s steps(22) 1s infinite alternate}#crow{background:#74d5f8;float:left;width:.8rem;height:80px;font-family:consolas;font-weight:700;-webkit-animation:crow .5s linear 0s infinite;animation:crow .5s linear 0s infinite}@-webkit-keyframes typing{0%{width:0}to{width:27ch}}@keyframes typing{0%{width:0}to{width:27ch}}@-webkit-keyframes crow{0%{opacity:0}to{opacity:1}}@keyframes crow{0%{opacity:0}to{opacity:1}}
 
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
