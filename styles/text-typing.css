@@ -1,0 +1,106 @@
+
+@media (max-width: 64rem) {
+    #desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 64rem) {
+    #mobile {
+        display: none;
+    }
+}
+
+#typing {
+  color: rgb(75, 74, 74);
+  width: 0ch;
+  float: left;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(22) 1s infinite alternate;
+}
+
+#typing-mobile-1 {
+  color: rgb(75, 74, 74);
+  width: 0ch;
+  float: left;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 55px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing1 5s steps(22) 1s infinite alternate;
+}
+
+#typing-mobile-2 {
+  color: rgb(75, 74, 74);
+  width: 0ch;
+  float: left;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing2 5s steps(22) 1s infinite alternate;
+}
+
+#crow {
+  background: rgb(116, 213, 248);
+  float: left;
+  width: 0.8rem;
+  height: 80px;
+  font-family: consolas;
+  font-weight:bold;
+  animation: crow 0.5s linear 0s infinite;
+}
+
+@media (max-width: 64rem) {
+    #crow {
+        background: rgb(116, 213, 248);
+        float: left;
+        width: 0.8rem;
+        height: 60px;
+        font-family: consolas;
+        font-weight:bold;
+        animation: crow 0.5s linear 0s infinite;
+      }
+}
+
+@keyframes typing {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 27.5ch;
+    }
+}
+
+@keyframes typing1 {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 11ch;
+  }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 16ch;
+  }
+}
+
+@keyframes crow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

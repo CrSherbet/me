@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/text-typing.css'
 import 'tailwindcss/tailwind.css'
 import Header from "../SharedComponents/Header"
 
