@@ -32,7 +32,7 @@
   font-size: 55px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing1 5s steps(22) 1s infinite alternate;
+  animation: typing1 4s steps(22) 1s infinite alternate;
 }
 
 #typing-mobile-2 {
@@ -44,7 +44,7 @@
   font-size: 40px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing2 5s steps(22) 1s infinite alternate;
+  animation: typing2 4s steps(22) 1s infinite alternate;
 }
 
 #crow {
@@ -61,7 +61,7 @@
     #crow {
         background: rgb(116, 213, 248);
         float: left;
-        width: 0.8rem;
+        width: 0.6rem;
         height: 60px;
         font-family: consolas;
         font-weight:bold;
@@ -83,7 +83,7 @@
     width: 0ch;
   }
   to {
-    width: 11ch;
+    width: 10.6ch;
   }
 }
 
