@@ -1,5 +1,5 @@
 import Carousel from 'react-multi-carousel';
-import responsiveCarousel from './responsiveCarousel'
+import responsiveCarousel from '../../SharedComponents/responsiveCarousel'
 import 'react-multi-carousel/lib/styles.css';
 import Badge from '../../SharedComponents/Badge';
 import Project from '../../SharedComponents/Project';
@@ -22,13 +22,13 @@ export default function Portfolio({ badges, projects }) {
                     itemClass="carousel-item-padding-40-px"
                     responsive={responsiveCarousel}
                 >
-                    {badges.map(badge => <Badge badge={badge} />)}
+                    {badges.map(badge => <Badge key={badge.name} badge={badge} />)}
                 </Carousel>
             </div>
             <div className="projects">
                 <h2 className="text-6xl header mb-8">Project<span className="text-purple-400">s</span></h2>
                 <div className="project-container">
-                    {projects.map(project => <Project project={project} />)}
+                    {projects.map(project => <Project key={project.name} project={project} />)}
                 </div>
             </div>
         </div>
