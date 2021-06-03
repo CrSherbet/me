@@ -1,5 +1,5 @@
 import Link from "next/Link";
-import Image from "next/Image";
+import Image from "next/image";
 import moment from "moment";
 
 export default function Project({ project }) {
