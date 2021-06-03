@@ -22,3 +22,13 @@ header {
   justify-content: flex-end;
   height: 3rem;
 }
+
+.header {
+  color: rgb(75, 74, 74);
+}
+
+.project-container{
+  margin-top: 1rem;
+  max-height: 40vh;
+  overflow: auto;
+}
